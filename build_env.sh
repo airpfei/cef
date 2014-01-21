@@ -7,3 +7,5 @@ chmod 777 tools/change_mach_o_flags.py
 chmod 777 tools/change_mach_o_flags_from_xcode.sh
 chmod 777 tools/strip_from_xcode
 chmod +x tools/make_more_helpers.sh
+chmod +x tools/adb
+chmod +x tools/aapt
