@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,7 +103,11 @@
 			};
 			buildConfigurationList = 763C3AF322CA8DDD01A610B7 /* Build configuration list for PBXProject "mach_override" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 45C17CF73A1C0DFA04D041CE;
 			projectDirPath = "";
 			projectRoot = "";
@@ -190,7 +194,7 @@
 					"-Xclang",
 					"-load",
 					"-Xclang",
-					"/Users/PengFei/code/chromiumsvn/src/tools/clang/scripts/../../../third_party/llvm-build/Release+Asserts/lib/libFindBadConstructs.dylib",
+					"$(SOURCE_ROOT)/../../third_party/llvm-build/Release+Asserts/lib/libFindBadConstructs.dylib",
 					"-Xclang",
 					"-add-plugin",
 					"-Xclang",
@@ -214,10 +218,7 @@
 					"-Wno-deprecated-register",
 					"-Wno-deprecated-declarations",
 				);
-				WARNING_CFLAGS_excluded = (
-					"-Wall",
-					"-Wextra",
-				);
+				WARNING_CFLAGS_excluded = "-Wall -Wextra";
 			};
 			name = Debug;
 		};
@@ -298,7 +299,7 @@
 					"-Xclang",
 					"-load",
 					"-Xclang",
-					"/Users/PengFei/code/chromiumsvn/src/tools/clang/scripts/../../../third_party/llvm-build/Release+Asserts/lib/libFindBadConstructs.dylib",
+					"$(SOURCE_ROOT)/../../third_party/llvm-build/Release+Asserts/lib/libFindBadConstructs.dylib",
 					"-Xclang",
 					"-add-plugin",
 					"-Xclang",
@@ -321,10 +322,7 @@
 					"-Wno-deprecated-register",
 					"-Wno-deprecated-declarations",
 				);
-				WARNING_CFLAGS_excluded = (
-					"-Wall",
-					"-Wextra",
-				);
+				WARNING_CFLAGS_excluded = "-Wall -Wextra";
 			};
 			name = Release;
 		};
