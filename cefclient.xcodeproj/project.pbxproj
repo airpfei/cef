@@ -674,43 +674,43 @@
 		E04CFD231D6A2D1E8B72AD50 /* post_data_ctocpp.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = post_data_ctocpp.cc; sourceTree = "<group>"; };
 		E07938F71CFB6B3F62A8E872 /* libcef_dll_wrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcef_dll_wrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13D2FF5A086DEF87977DB8A /* scheme_handler_factory_cpptoc.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scheme_handler_factory_cpptoc.cc; sourceTree = "<group>"; };
-		E239B8C7188E260100F35BAB /* liballocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator.a; path = chromium_base/src/base/allocator/../../xcodebuild/Debug/liballocator.a; sourceTree = "<group>"; };
-		E239B8CF188E265C00F35BAB /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libminizip.a; path = chromium_base/src/third_party/zlib/../../xcodebuild/Debug/libminizip.a; sourceTree = "<group>"; };
-		E239B8D9188E267300F35BAB /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = chromium_base/src/third_party/libevent/../../xcodebuild/Debug/libevent.a; sourceTree = "<group>"; };
-		E239B8DA188E267300F35BAB /* libgmock_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock_main.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgmock_main.a; sourceTree = "<group>"; };
-		E239B8DB188E267300F35BAB /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgmock.a; sourceTree = "<group>"; };
-		E239B8DC188E267300F35BAB /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgtest_main.a; sourceTree = "<group>"; };
-		E239B8DD188E267300F35BAB /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgtest.a; sourceTree = "<group>"; };
-		E239B8DE188E267300F35BAB /* libmach_override.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmach_override.a; path = chromium_base/src/third_party/mach_override/../../xcodebuild/Debug/libmach_override.a; sourceTree = "<group>"; };
-		E239B8DF188E267300F35BAB /* libmodp_b64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmodp_b64.a; path = chromium_base/src/third_party/modp_b64/../../xcodebuild/Debug/libmodp_b64.a; sourceTree = "<group>"; };
-		E239B8F2188E270C00F35BAB /* liballocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator.a; path = chromium_base/src/base/allocator/../../xcodebuild/Debug/liballocator.a; sourceTree = "<group>"; };
-		E239B8F3188E270C00F35BAB /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = chromium_base/src/third_party/libevent/../../xcodebuild/Debug/libevent.a; sourceTree = "<group>"; };
-		E239B8F4188E270C00F35BAB /* libgmock_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock_main.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgmock_main.a; sourceTree = "<group>"; };
-		E239B8F5188E270C00F35BAB /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgmock.a; sourceTree = "<group>"; };
-		E239B8F6188E270C00F35BAB /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgtest_main.a; sourceTree = "<group>"; };
-		E239B8F7188E270C00F35BAB /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgtest.a; sourceTree = "<group>"; };
-		E239B8F8188E270C00F35BAB /* libmach_override.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmach_override.a; path = chromium_base/src/third_party/mach_override/../../xcodebuild/Debug/libmach_override.a; sourceTree = "<group>"; };
-		E239B8F9188E270C00F35BAB /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libminizip.a; path = chromium_base/src/third_party/zlib/../../xcodebuild/Debug/libminizip.a; sourceTree = "<group>"; };
-		E239B8FA188E270C00F35BAB /* libmodp_b64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmodp_b64.a; path = chromium_base/src/third_party/modp_b64/../../xcodebuild/Debug/libmodp_b64.a; sourceTree = "<group>"; };
-		E2917C3B188F6EC100F44705 /* base.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = base.xcodeproj; path = chromium/base/base.xcodeproj; sourceTree = "<group>"; };
+		E239B8C7188E260100F35BAB /* liballocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator.a; path = chromium/src/base/allocator/../../xcodebuild/Debug/liballocator.a; sourceTree = "<group>"; };
+		E239B8CF188E265C00F35BAB /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libminizip.a; path = chromium/src/third_party/zlib/../../xcodebuild/Debug/libminizip.a; sourceTree = "<group>"; };
+		E239B8D9188E267300F35BAB /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = chromium/src/third_party/libevent/../../xcodebuild/Debug/libevent.a; sourceTree = "<group>"; };
+		E239B8DA188E267300F35BAB /* libgmock_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock_main.a; path = chromium/src/testing/../xcodebuild/Debug/libgmock_main.a; sourceTree = "<group>"; };
+		E239B8DB188E267300F35BAB /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock.a; path = chromium/src/testing/../xcodebuild/Debug/libgmock.a; sourceTree = "<group>"; };
+		E239B8DC188E267300F35BAB /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = chromium/src/testing/../xcodebuild/Debug/libgtest_main.a; sourceTree = "<group>"; };
+		E239B8DD188E267300F35BAB /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = chromium/src/testing/../xcodebuild/Debug/libgtest.a; sourceTree = "<group>"; };
+		E239B8DE188E267300F35BAB /* libmach_override.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmach_override.a; path = chromium/src/third_party/mach_override/../../xcodebuild/Debug/libmach_override.a; sourceTree = "<group>"; };
+		E239B8DF188E267300F35BAB /* libmodp_b64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmodp_b64.a; path = chromium/src/third_party/modp_b64/../../xcodebuild/Debug/libmodp_b64.a; sourceTree = "<group>"; };
+		E239B8F2188E270C00F35BAB /* liballocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator.a; path = chromium/src/base/allocator/../../xcodebuild/Debug/liballocator.a; sourceTree = "<group>"; };
+		E239B8F3188E270C00F35BAB /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = chromium/src/third_party/libevent/../../xcodebuild/Debug/libevent.a; sourceTree = "<group>"; };
+		E239B8F4188E270C00F35BAB /* libgmock_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock_main.a; path = chromium/src/testing/../xcodebuild/Debug/libgmock_main.a; sourceTree = "<group>"; };
+		E239B8F5188E270C00F35BAB /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock.a; path = chromium/src/testing/../xcodebuild/Debug/libgmock.a; sourceTree = "<group>"; };
+		E239B8F6188E270C00F35BAB /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = chromium/src/testing/../xcodebuild/Debug/libgtest_main.a; sourceTree = "<group>"; };
+		E239B8F7188E270C00F35BAB /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = chromium/src/testing/../xcodebuild/Debug/libgtest.a; sourceTree = "<group>"; };
+		E239B8F8188E270C00F35BAB /* libmach_override.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmach_override.a; path = chromium/src/third_party/mach_override/../../xcodebuild/Debug/libmach_override.a; sourceTree = "<group>"; };
+		E239B8F9188E270C00F35BAB /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libminizip.a; path = chromium/src/third_party/zlib/../../xcodebuild/Debug/libminizip.a; sourceTree = "<group>"; };
+		E239B8FA188E270C00F35BAB /* libmodp_b64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmodp_b64.a; path = chromium/src/third_party/modp_b64/../../xcodebuild/Debug/libmodp_b64.a; sourceTree = "<group>"; };
+		E2917C3B188F6EC100F44705 /* base.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = base.xcodeproj; path = chromium/src/base/base.xcodeproj; sourceTree = "<group>"; };
 		E2A04DDD118899C8BEAB4073 /* v8stack_trace_ctocpp.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = v8stack_trace_ctocpp.cc; sourceTree = "<group>"; };
-		E2B9EA53188E1BAF007537CC /* liballocator_extension_thunks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator_extension_thunks.a; path = chromium_base/src/base/allocator/../../xcodebuild/Debug/liballocator_extension_thunks.a; sourceTree = "<group>"; };
-		E2B9EA54188E1BAF007537CC /* liballocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator.a; path = chromium_base/src/base/allocator/../../xcodebuild/Debug/liballocator.a; sourceTree = "<group>"; };
-		E2B9EA55188E1BAF007537CC /* libchrome_zlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libchrome_zlib.a; path = chromium_base/src/third_party/zlib/../../xcodebuild/Debug/libchrome_zlib.a; sourceTree = "<group>"; };
-		E2B9EA56188E1BAF007537CC /* libdynamic_annotations.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdynamic_annotations.a; path = chromium_base/src/base/third_party/dynamic_annotations/../../../xcodebuild/Debug/libdynamic_annotations.a; sourceTree = "<group>"; };
-		E2B9EA57188E1BAF007537CC /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = chromium_base/src/third_party/libevent/../../xcodebuild/Debug/libevent.a; sourceTree = "<group>"; };
-		E2B9EA58188E1BAF007537CC /* libgmock_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock_main.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgmock_main.a; sourceTree = "<group>"; };
-		E2B9EA59188E1BAF007537CC /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgmock.a; sourceTree = "<group>"; };
-		E2B9EA5A188E1BAF007537CC /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgtest_main.a; sourceTree = "<group>"; };
-		E2B9EA5B188E1BAF007537CC /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = chromium_base/src/testing/../xcodebuild/Debug/libgtest.a; sourceTree = "<group>"; };
-		E2B9EA5C188E1BAF007537CC /* libmach_override.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmach_override.a; path = chromium_base/src/third_party/mach_override/../../xcodebuild/Debug/libmach_override.a; sourceTree = "<group>"; };
-		E2B9EA5D188E1BAF007537CC /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libminizip.a; path = chromium_base/src/third_party/zlib/../../xcodebuild/Debug/libminizip.a; sourceTree = "<group>"; };
-		E2B9EA5E188E1BAF007537CC /* libmodp_b64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmodp_b64.a; path = chromium_base/src/third_party/modp_b64/../../xcodebuild/Debug/libmodp_b64.a; sourceTree = "<group>"; };
-		E2B9EA7D188E1E73007537CC /* liballocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator.a; path = chromium_base/src/base/allocator/../../xcodebuild/Debug/liballocator.a; sourceTree = "<group>"; };
-		E2B9EA82188E1E90007537CC /* liballocator_extension_thunks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator_extension_thunks.a; path = chromium_base/src/base/allocator/../../xcodebuild/Debug/liballocator_extension_thunks.a; sourceTree = "<group>"; };
-		E2B9EA83188E1E90007537CC /* libchrome_zlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libchrome_zlib.a; path = chromium_base/src/third_party/zlib/../../xcodebuild/Debug/libchrome_zlib.a; sourceTree = "<group>"; };
-		E2B9EA84188E1E90007537CC /* libdynamic_annotations.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdynamic_annotations.a; path = chromium_base/src/base/third_party/dynamic_annotations/../../../xcodebuild/Debug/libdynamic_annotations.a; sourceTree = "<group>"; };
-		E2B9EA85188E1E90007537CC /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = chromium_base/src/third_party/libevent/../../xcodebuild/Debug/libevent.a; sourceTree = "<group>"; };
+		E2B9EA53188E1BAF007537CC /* liballocator_extension_thunks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator_extension_thunks.a; path = chromium/src/base/allocator/../../xcodebuild/Debug/liballocator_extension_thunks.a; sourceTree = "<group>"; };
+		E2B9EA54188E1BAF007537CC /* liballocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator.a; path = chromium/src/base/allocator/../../xcodebuild/Debug/liballocator.a; sourceTree = "<group>"; };
+		E2B9EA55188E1BAF007537CC /* libchrome_zlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libchrome_zlib.a; path = chromium/src/third_party/zlib/../../xcodebuild/Debug/libchrome_zlib.a; sourceTree = "<group>"; };
+		E2B9EA56188E1BAF007537CC /* libdynamic_annotations.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdynamic_annotations.a; path = chromium/src/base/third_party/dynamic_annotations/../../../xcodebuild/Debug/libdynamic_annotations.a; sourceTree = "<group>"; };
+		E2B9EA57188E1BAF007537CC /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = chromium/src/third_party/libevent/../../xcodebuild/Debug/libevent.a; sourceTree = "<group>"; };
+		E2B9EA58188E1BAF007537CC /* libgmock_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock_main.a; path = chromium/src/testing/../xcodebuild/Debug/libgmock_main.a; sourceTree = "<group>"; };
+		E2B9EA59188E1BAF007537CC /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock.a; path = chromium/src/testing/../xcodebuild/Debug/libgmock.a; sourceTree = "<group>"; };
+		E2B9EA5A188E1BAF007537CC /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = chromium/src/testing/../xcodebuild/Debug/libgtest_main.a; sourceTree = "<group>"; };
+		E2B9EA5B188E1BAF007537CC /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = chromium/src/testing/../xcodebuild/Debug/libgtest.a; sourceTree = "<group>"; };
+		E2B9EA5C188E1BAF007537CC /* libmach_override.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmach_override.a; path = chromium/src/third_party/mach_override/../../xcodebuild/Debug/libmach_override.a; sourceTree = "<group>"; };
+		E2B9EA5D188E1BAF007537CC /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libminizip.a; path = chromium/src/third_party/zlib/../../xcodebuild/Debug/libminizip.a; sourceTree = "<group>"; };
+		E2B9EA5E188E1BAF007537CC /* libmodp_b64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmodp_b64.a; path = chromium/src/third_party/modp_b64/../../xcodebuild/Debug/libmodp_b64.a; sourceTree = "<group>"; };
+		E2B9EA7D188E1E73007537CC /* liballocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator.a; path = chromium/src/base/allocator/../../xcodebuild/Debug/liballocator.a; sourceTree = "<group>"; };
+		E2B9EA82188E1E90007537CC /* liballocator_extension_thunks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liballocator_extension_thunks.a; path = chromium/src/base/allocator/../../xcodebuild/Debug/liballocator_extension_thunks.a; sourceTree = "<group>"; };
+		E2B9EA83188E1E90007537CC /* libchrome_zlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libchrome_zlib.a; path = chromium/src/third_party/zlib/../../xcodebuild/Debug/libchrome_zlib.a; sourceTree = "<group>"; };
+		E2B9EA84188E1E90007537CC /* libdynamic_annotations.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdynamic_annotations.a; path = chromium/src/base/third_party/dynamic_annotations/../../../xcodebuild/Debug/libdynamic_annotations.a; sourceTree = "<group>"; };
+		E2B9EA85188E1E90007537CC /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = chromium/src/third_party/libevent/../../xcodebuild/Debug/libevent.a; sourceTree = "<group>"; };
 		E2D00A52188E37BE004579F6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E3132BC7E92EBE71254092D3 /* cef_pack_strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cef_pack_strings.h; sourceTree = "<group>"; };
 		E3407CFF3BADB66A67E165D6 /* download_item_ctocpp.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = download_item_ctocpp.cc; sourceTree = "<group>"; };
@@ -1943,7 +1943,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks",
 					"$(CONFIGURATION)",
-					"$(SOURCE_ROOT)/chromium/xcodebuild/Debug",
+					"$(SOURCE_ROOT)/chromium/src/xcodebuild/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = "-fno-strict-aliasing";
@@ -2029,7 +2029,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks",
 					"$(CONFIGURATION)",
-					"$(SOURCE_ROOT)/chromium/xcodebuild/Debug",
+					"$(SOURCE_ROOT)/chromium/src/xcodebuild/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = (
@@ -2164,13 +2164,13 @@
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				HEADER_SEARCH_PATHS = (
 					.,
-					./chromium/,
+					./chromium/src,
 				);
 				INFOPLIST_FILE = cefclient/mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks",
 					"$(CONFIGURATION)",
-					"$(SOURCE_ROOT)/chromium/xcodebuild/Debug",
+					"$(SOURCE_ROOT)/chromium/src/xcodebuild/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = (
@@ -2358,13 +2358,13 @@
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				HEADER_SEARCH_PATHS = (
 					.,
-					./chromium/,
+					./chromium/src,
 				);
 				INFOPLIST_FILE = cefclient/mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks",
 					"$(CONFIGURATION)",
-					"$(SOURCE_ROOT)/chromium/xcodebuild/Debug",
+					"$(SOURCE_ROOT)/chromium/src/xcodebuild/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = "-fno-strict-aliasing";
