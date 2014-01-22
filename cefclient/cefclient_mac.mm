@@ -127,12 +127,12 @@ const int kWindowHeight = 600;
 }
 
 - (void)alert:(NSString*)title withMessage:(NSString*)message {
-//  NSAlert *alert = [NSAlert alertWithMessageText:title
-//                                   defaultButton:@"OK"
-//                                 alternateButton:nil
-//                                     otherButton:nil
-//                       informativeTextWithFormat:message];
-//  [alert runModal];
+  NSAlert *alert = [NSAlert alertWithMessageText:title
+                                   defaultButton:@"OK"
+                                 alternateButton:nil
+                                     otherButton:nil
+                       informativeTextWithFormat:@"%@", message];
+  [alert runModal];
 }
 
 - (void)notifyConsoleMessage:(id)object {
