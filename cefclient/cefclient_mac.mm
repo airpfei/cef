@@ -26,6 +26,7 @@
 #import "base/mac/scoped_nsautorelease_pool.h"
 #include "base/strings/sys_string_conversions.h"
 #include "base/strings/stringprintf.h"
+#include "base/message_loop/message_loop.h"
 
 // The global ClientHandler reference.
 extern CefRefPtr<ClientHandler> g_handler;
@@ -466,6 +467,15 @@ NSButton* MakeButton(NSRect* rect, NSString* title, NSView* parent) {
 
 @end
 
+class Test : public CefTask {
+ public:
+  virtual void Execute() {
+    int a = 0;
+    a = a + 1;
+  }
+
+  IMPLEMENT_REFCOUNTING(Test);
+};
 
 int main(int argc, char* argv[]) {
   CefMainArgs main_args(argc, argv);
@@ -505,6 +515,9 @@ int main(int argc, char* argv[]) {
                           waitUntilDone:NO];
     
   std::string abc = base::StringPrintf("ab%d", 1);
+  CefRefPtr<CefTask> a = new Test();
+  
+  CefPostTask(TID_UI, a);
   
 
   // Run the application message loop.

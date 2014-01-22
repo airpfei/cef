@@ -248,8 +248,8 @@ void ClientHandler::OnBeforeDownload(
     CefRefPtr<CefBeforeDownloadCallback> callback) {
   REQUIRE_UI_THREAD();
   // Continue the download and show the "Save As" dialog.
-  //callback->Continue(GetDownloadPath(suggested_name), true);
-    CefString name = download_item->GetSuggestedFileName();
+  callback->Continue(GetDownloadPath(suggested_name), true);
+  CefString name = download_item->GetSuggestedFileName();
 }
 
 void ClientHandler::OnDownloadUpdated(
