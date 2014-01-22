@@ -2,7 +2,6 @@
 // Portions copyright (c) 2010 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
-
 #import <Cocoa/Cocoa.h>
 #include <sstream>
 #include "cefclient/cefclient.h"
@@ -380,10 +379,9 @@ NSButton* MakeButton(NSRect* rect, NSString* title, NSView* parent) {
   r.size.width = kWindowWidth;
   r.size.height = kWindowHeight + URLBAR_HEIGHT;
   [mainWnd setFrame:[mainWnd frameRectForContentRect:r] display:YES];
-  
-  
+
   std::string abc = base::StringPrintf("aaa%s", "abc");
-  
+  NSLog(@"%s", abc.c_str());
 }
 
 - (IBAction)testGetSource:(id)sender {
